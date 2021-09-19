@@ -1,5 +1,3 @@
-from io import BytesIO
-
 import pickle
 from airflow.contrib.hooks.bigquery_hook import BigQueryHook
 

@@ -1,5 +1,3 @@
-from datetime import datetime
-
 import pandas as pd
 from airflow.models import Variable
 from google.cloud import storage

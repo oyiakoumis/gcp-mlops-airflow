@@ -22,7 +22,7 @@ def make_prediction(request):
         and request.args["key"] == os.environ["API_KEY"]
     ):
         res = predict_json(
-            "pretto-test-odysseas", "wine_quality", request_json["instances"]
+            "test-odysseas", "wine_quality", request_json["instances"]
         )
         return json.dumps(res)
     else:
